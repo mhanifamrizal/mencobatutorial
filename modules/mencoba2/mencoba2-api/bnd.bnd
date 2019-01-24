@@ -1,0 +1,10 @@
+Bundle-Name: mencoba2-api
+Bundle-SymbolicName: testing.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	testing.exception,\
+	testing.model,\
+	testing.service,\
+	testing.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../mencoba2-service/service.xml

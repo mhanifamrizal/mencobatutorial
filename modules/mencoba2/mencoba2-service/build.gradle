@@ -1,0 +1,12 @@
+dependencies {
+	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.spring.extender"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly project(":modules:mencoba2:mencoba2-api")
+}
+
+buildService {
+	apiDir = "../mencoba2-api/src/main/java"
+}
+
+group = "testing"
